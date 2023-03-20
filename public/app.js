@@ -17,7 +17,7 @@ socket.on('connect', () => {
 socket.on('disconnect', () => {
   loginfo(socket.id + ' disconnected');
 })
-socket.on('receiveMSG' (data) => {
+socket.on('receiveMSG', (data) => {
  loginfo(data)
 })
 $('.joinRoom').click(function(){
