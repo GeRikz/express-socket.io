@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<img src="./assets/img/logo.jpg" alt="" />
+	<br/>
+	<input class='joinRoom' data-id='1' type="button" value="Join Room 1" />
+	<input class='joinRoom' data-id='2' type="button" value="Join Room 2" />
+	<input class='joinRoom' data-id='3' type="button" value="Join Room 3" />
+	<br/><br/>
+	<input type="text" class='textMsg' placeholder='Enter Message'/><input class='sendMsg' type="button" value="Send Message" />
+	<br/><br/>
+	<div class='time'></div>
+	<div id="console"></div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="./app.js"></script>
+</body>
+</html>

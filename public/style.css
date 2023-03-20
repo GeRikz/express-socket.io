@@ -1,0 +1,16 @@
+body {
+	background-color:#000;
+	color:#fff;
+}
+body img {
+	max-width:100px;	
+}
+#console {
+	background-color:#fff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+	height:15rem;
+	overflow: auto;
+	color:#000;
+}
